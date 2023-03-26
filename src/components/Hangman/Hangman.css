@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+}
+
+.Game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.gameContent {
+  display: flex;
+  margin-left: 2%;
+  height: 10%;
+  width: auto;
+}
+button {
+  margin-top: 20%;
+  padding: 2;
+  width: 2vw;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lose {
+  color: red;
+}
+.win {
+  color: green;
+}
+.playAgain{
+    width: 100%;
+}
